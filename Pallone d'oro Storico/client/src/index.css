@@ -1,0 +1,46 @@
+body {
+  background-color: #ffffff; /* White background */
+  color: #000000; /* Black text */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background-color: #1976d2; /* Blue primary button */
+  color: #ffffff; /* White text */
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #155a9c; /* Darker blue on hover */
+}
+
+input, textarea {
+  border: 1px solid #cccccc;
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+}
+
+input:focus, textarea:focus {
+  border-color: #1976d2; /* Blue border on focus */
+  outline: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  padding: 20px;
+  background-color: #f4f4f4; /* Light grey container background */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
